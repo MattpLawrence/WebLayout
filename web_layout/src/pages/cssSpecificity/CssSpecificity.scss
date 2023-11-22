@@ -1,0 +1,177 @@
+//comment out to not mess with other pages
+
+
+// .rounded{
+//     border-radius: 10%;
+//     //same attributes as colored
+//     background-color: rgb(197, 197, 224);
+//     height: 5rem;
+//     width: 5rem;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: flex-end;
+// }
+
+// .colored{
+//     color: white;
+//     //same attributes as rounded
+//     background-color: rgb(216, 150, 150);
+//     height: 10rem;
+//     width: 10rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+
+// #cssSpecificityContainer{
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// #cssSpecificityContainer > div{
+//     width: 100vw;
+// }
+
+// #startContainer{
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+// }
+
+// #endContainer{
+//     background-color: aliceblue;
+//     height: calc(100vh - 10rem);
+//     display: flex;
+//     align-items: center ;
+//     justify-content: center;
+// }
+
+// #endContainer  > div{
+//     width: 100%;
+//     height: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+
+
+
+// .colored.rounded{
+//     background-color: rgb(150, 150, 216);
+// }
+
+// .colored .colored.rounded{
+//     border: 2px solid black;
+// }
+
+// #endEndContainer .colored.rounded{
+//     width: 4rem;
+//     height: 4rem;
+//     border-radius: 50%;
+// }
+
+// #endStartContainer .colored.rounded{
+//     width: 8rem;
+//     height: 8rem;
+//     border-radius: 0;
+// }
+
+
+
+
+
+
+
+
+
+
+//**********************scss************************* */
+
+
+// .rounded{
+//     border-radius: 10%;
+//     //same attributes as colored
+//     background-color: rgb(197, 197, 224);
+//     height: 5rem;
+//     width: 5rem;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: flex-end;
+// }
+
+// .colored{
+//     color: white;
+//     //same attributes as rounded
+//     background-color: rgb(216, 150, 150);
+//     height: 10rem;
+//     width: 10rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .colored.rounded{
+//         border: 2px solid black;
+//     }
+// }
+
+
+// .colored.rounded{
+//     background-color: rgb(150, 150, 216);
+// }
+
+// #cssSpecificityContainer{
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     > div{
+//         width: 100vw;
+//     }
+    
+//     #startContainer{
+//         display: flex;
+//         justify-content: space-around;
+//         align-items: center;
+//     }
+
+//     #endContainer{
+//         background-color: aliceblue;
+//         height: calc(100vh - 10rem);
+//         display: flex;
+//         align-items: center ;
+//         justify-content: center;
+//         > div{
+//             width: 100%;
+//             height: 50%;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         }
+
+//         #endEndContainer{
+//             .colored.rounded{
+//                 width: 4rem;
+//                 height: 4rem;
+//                 border-radius: 50%;
+//             }
+//         }
+
+//         #endStartContainer{
+//             .colored.rounded{
+//                 width: 8rem;
+//                 height: 8rem;
+//                 border-radius: 0;
+//             }
+//         }
+//     }
+// }

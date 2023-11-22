@@ -1,0 +1,103 @@
+#layoutPageContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: gray;
+
+
+    #headerContainer{
+        width: 100vw;
+        height: 4rem;
+        background-color: pink;
+    }
+
+    #mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-height: calc(100vh - 4rem);
+
+        > div{
+            width: 100%;
+        }
+
+        #bodyContents{
+            background-color: yellow;
+            height: calc(100vh - 8rem);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+
+            .centerContainer{
+                max-width: 1200px;
+                width: 100%;
+                background-color: grey;
+                height: 100%;
+
+                display: flex;
+
+                #startContainer{
+                    background-color: red;
+                    flex: 2
+                }
+
+                #endContainer{
+                    background-color: rgb(82, 82, 167);
+                    flex: 10 ;
+
+                    #startStartContainer{
+                        height: 30%;
+                        background-color: gray;
+
+                        .image{
+                            background-color: blue;
+                            height: 100%;
+                            width: 30%;
+                        }
+                    }
+
+
+                    #endEndContainer{
+                        background-color: lightcyan;
+                        height: 70%;
+                        display: flex;
+
+                        > div{
+                            width: 50%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            > div{
+                                height: 80%;
+                                width: 80%;
+                                background-color: black;
+                            }
+                        }
+
+                        #summaryContainer{
+                           background-color: aqua; 
+
+                            
+                        }
+
+                        #conclusionContainer{
+                            background-color: rgb(134, 111, 81);
+                        }
+                    }
+                }
+
+            }
+
+        }
+        
+        #footer{
+            background-color: blue;
+            height: 4rem;
+
+                
+        }
+    }
+}

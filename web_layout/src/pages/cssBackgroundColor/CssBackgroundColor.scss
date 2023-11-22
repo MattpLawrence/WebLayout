@@ -1,0 +1,31 @@
+
+#cssBackgroundColorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // background-color: blue;
+    // outline: 4px solid black;
+    height: 100vh;
+
+    > div{
+        width: 33%;
+        font-size: 2rem;
+        height: 50vh;
+    }
+
+    .start{
+        // background-color: red;
+        // outline: 4px solid red;
+    }
+
+    .middle{
+        // background-color: green;
+        text-align: end;
+        // outline: 4px solid green;
+    }
+
+    .end{
+        // background-color: orange;
+        // outline: 4px solid orange;
+    }
+}

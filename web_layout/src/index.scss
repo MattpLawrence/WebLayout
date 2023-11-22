@@ -1,0 +1,34 @@
+html, body{
+    height: 100%;
+    margin: 0;
+
+    #root{
+        height: 100%;
+    }
+}
+
+
+//set media queries for smaller font base units
+@media (max-width: 600px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1281px) {
+    html{
+        font-size: 18px;
+    }
+}
